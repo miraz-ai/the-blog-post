@@ -1,0 +1,120 @@
+nav li a{
+    text-decoration: none;
+}
+nav li:hover{
+    background-color: lightgray;
+}
+nav li{
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+}
+
+footer{
+    text-align: center;
+    font-size: small;
+    color: gray;
+    margin-top: 20px;
+    
+}
+.blogpost{
+    width: auto;
+    margin: auto;
+    text-align: center;
+    line-height: 1.6;
+    font-family: Arial, sans-serif;
+    font-weight: 900;
+    cursor: pointer;
+}
+.blogpost:hover{
+    background-color: rgb(211, 200, 200);
+}
+.registerbutton{
+    background-color: rgb(1, 1, 3);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    text-shadow: antiquewhite;
+    font-weight: 900;
+    border-radius: 5px;
+}
+.registerbutton:hover{
+    background-color: rgb(233, 226, 226);
+    color: black;
+}
+.signinbutton{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 900;
+    border-radius: 5px;
+
+}
+.signinbutton:hover{
+    background-color: rgb(37, 36, 36);
+    color: rgb(255, 255, 255);
+}
+.twobutton{
+    display: flex;
+    justify-content: right;
+
+}
+header{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+nav{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+p{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    margin: 20px auto;
+    font-size: 20px;
+    line-height: 1.6;
+    font-weight: normal;
+}
+h3{
+    font-family: Arial, sans-serif;
+    text-align: left;
+    font-weight: bold;
+    margin: 20px auto;
+
+}
+#footer{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    margin-top: 20px auto;
+    
+}
+section{
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+}
+#headline{
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    margin-top: 20px auto;
+}
+main{
+    margin: auto;
+    width: 80%;
+    padding: 15px;
+}
